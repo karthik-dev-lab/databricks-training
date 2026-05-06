@@ -1,25 +1,86 @@
-Day 1 work has been updated in the GitHub repository with a proper README file documenting the SQL concepts learned and the practical queries implemented today. The repository contains hands-on practice focused on foundational SQL querying and data analysis operations using Employee and Department tables.
+# Week 1 - Day 1
 
-Topics covered include:
+## Objective
 
-* Basic SELECT statements for retrieving complete and specific column data
-* Data filtering using WHERE conditions
-* Pattern-based searching using LIKE operators with wildcards
-* String-length and character-position based filtering
-* Date-based querying using YEAR(), MONTH(), and date comparison conditions
-* Aggregate functions including SUM, AVG, MIN, MAX, and COUNT
-* Department-wise grouped analysis using GROUP BY
-* Salary analysis and employee distribution reporting
-* Sorting and ranking style queries using ORDER BY and LIMIT
-* Introductory subqueries for department-based employee filtering
+To understand and implement fundamental SQL concepts such as querying databases, filtering records, performing grouped analysis, and working with aggregate functions.
 
-Practical queries implemented:
+---
 
-* Retrieving employees based on age, joining year, and department
-* Identifying employees using name patterns and string conditions
-* Calculating total, average, minimum, and maximum salaries
-* Finding employee counts department-wise and year-wise
-* Performing department-level salary and age analysis
-* Identifying the department with the highest average salary
+## Tasks Completed
 
-This day focused on building strong SQL fundamentals required for backend development, database management, reporting systems, and data-driven application development. The exercises helped in understanding how relational databases are queried, filtered, grouped, and analyzed in real-world business scenarios.
+* Created and worked with Employee and Department tables
+* Executed multiple SQL queries covering different real-world scenarios
+* Practiced filtering, grouping, sorting, and date-based queries
+* Performed salary and department analysis using aggregate functions
+* Tested and validated query outputs using an online SQL compiler
+
+---
+
+## Concepts Learned
+
+* Writing basic SELECT queries
+* Filtering records using WHERE clause
+* Using comparison and logical operators
+* Pattern matching using LIKE operator
+* String-based filtering using LENGTH and wildcard patterns
+* Working with date functions such as YEAR() and MONTH()
+* Aggregate functions:
+
+  * SUM()
+  * AVG()
+  * MIN()
+  * MAX()
+  * COUNT()
+* Grouping data using GROUP BY
+* Sorting results using ORDER BY
+* Limiting results using LIMIT
+* Introduction to subqueries
+
+---
+
+## Queries Practiced
+
+* Retrieving employee details based on age and department
+* Searching employee names using wildcard patterns
+* Finding employees hired in specific years and months
+* Calculating total, average, minimum, and maximum salary
+* Department-wise employee count and salary analysis
+* Finding highest salary department
+* Performing grouped business-style reporting queries
+
+---
+
+## Tools Used
+
+* DB Fiddle / Online SQL Compiler
+* MySQL
+
+---
+
+## Project Files
+
+* `schema.sql` → Table creation scripts
+* `queries.sql` → All SQL queries practiced
+* `README.md` → Documentation of concepts learned
+* `output.txt` → Sample query outputs
+
+---
+
+## Learning Outcome
+
+Developed a strong understanding of SQL fundamentals including data retrieval, filtering, aggregation, grouping, and reporting queries. Learned how multiple SQL clauses work together to solve real-world data analysis problems efficiently.
+
+---
+
+## Challenges Faced
+
+* Initially faced difficulty in writing complex WHERE conditions
+* Understanding grouped queries and aggregate functions required practice
+* Date-based filtering and subqueries were slightly challenging initially
+* Improved confidence through repeated hands-on query execution
+
+---
+
+## Conclusion
+
+Day 1 focused on building a solid foundation in SQL querying and relational database concepts. The exercises helped in understanding how structured data can be filtered, analyzed, grouped, and reported using SQL.
